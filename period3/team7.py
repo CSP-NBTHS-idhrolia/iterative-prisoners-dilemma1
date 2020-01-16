@@ -41,7 +41,7 @@ def move(my_history, their_history, my_score, their_score):
             prior_round_them = their_history[round]
             prior_round_me = my_history[round]
             # If one matches
-            if (prior_round_me == recent_round_me) and 
+            if (prior_round_me == recent_round_me) and \
                     (prior_round_them == recent_round_them):
                 return their_history[round]
         # No match found
