@@ -46,14 +46,21 @@ def test_move(my_history, their_history, my_score, their_score, result):
         return False
 
     if __name__ == '__main__':
-        if move(my_history='', their_history='', my_score=0, their_score=0,result='b'):
+        betray = 0
+        collude = 0
+        ours = 0
+        if their_history == 'b':
+            betray = betray + 1
+        if ours > 3:
+            ours = 0
+        if betray > 3 or ours < 3:
             return 'b'
-            if 'c' in their_history[-10:]:
+            ours = ours + 1
+            betray = 0
+        else:
+            if collude > 2:
                 return 'b'
             else:
-                if 'b' in my_history()>.5:
-                    return 'b'
-                else: 
-                    return 'c'   
-
+                return 'c'
+        
                 
