@@ -43,7 +43,7 @@ collude = example0
 
 example_modules = [example0, example1, example2, example3, example4, example5, example6, example7,]
 
-team_modules = [team0, team2, team3, team5, team10, team11, team12, team13]
+team_modules = [team0, team2, team3, team5, team9, team11, team12, team13]
 
 modules = team_modules
 
