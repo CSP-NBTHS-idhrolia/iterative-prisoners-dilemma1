@@ -8,7 +8,7 @@
 
 import random
 team_name = 'Team1' # Only 10 chars displayed.
-strategy_name = 'IDK'
+strategy_name = 'Good Boi Points'
 strategy_description = 'Always betray if my_score < their_score.'
 
 def move(my_history, their_history, my_score, their_score):
@@ -41,7 +41,6 @@ def move(my_history, their_history, my_score, their_score):
     Returns 'c' or 'b'. 
     '''
 
-    
 def test_move(my_history, their_history, my_score, their_score, result = random.choice(['a','b'])):
     '''calls move(my_history, their_history, my_score, their_score)
     from this module. Prints error if return value != result.
@@ -72,7 +71,6 @@ if __name__ == '__main__':
          print('Test2: passed')
     else:
         print("Test2: failed")
-    
     
     # Test 3: They have high goodie points but higher score
     if test_move(my_history='bbbbbbbb',
