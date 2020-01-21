@@ -6,27 +6,30 @@
 #     move: A function that returns 'c' or 'b'
 ####
 
-team_name = 'The name the team gives to itself' # Only 10 chars displayed.
-strategy_name = 'The name the team gives to this strategy'
-strategy_description = 'How does this strategy decide?'
+team_name = 'Rima and Sid'
+strategy_name = 'Uhhh Comp Sci Things'
+strategy_description = 'Collude for the first two rounds. For all subsequent rounds: locate the most recent round that is equivalent to the previous round and replicate the opponent's move on the round after that. Or else, betray if the opponent had a different choice than us previous round and collude otherwise'
     
 def move(my_history, their_history, my_score, their_score):
-    ''' Arguments accepted: my_history, their_history are strings.
-    my_score, their_score are ints.
-    
-    Make my move.
-    Returns 'c' or 'b'. 
-    '''
+    if len(my_history) <= 1:
+        return 'c'
+    else:
+        previous_my = my_history[len(my_history)-1]
+        previous_their = their_history[len(their_history-1]
 
-    # my_history: a string with one letter (c or b) per round that has been played with this opponent.
-    # their_history: a string of the same length as history, possibly empty. 
-    # The first round between these two players is my_history[0] and their_history[0].
-    # The most recent round is my_history[-1] and their_history[-1].
+    for i in range(len(their_history)-2, -1, -1): 
+       second_to_previous_my = my_history[i]
+        second_to_previous_their = their_history[i]
+        if (previous_my == second_to_previous_my) and (second_to_previous_their == previous_their):
+            return their_history[i+1]
+    if previous_my != previous_their:
+        return 'b'
+    else:
+        return 'c'
+
+
+  
     
-    # Analyze my_history and their_history and/or my_score and their_score.
-    # Decide whether to return 'c' or 'b'.
-    
-    return 'c'
 
     
 def test_move(my_history, their_history, my_score, their_score, result):
