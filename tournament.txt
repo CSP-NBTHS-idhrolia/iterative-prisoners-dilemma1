@@ -1,6 +1,7 @@
 --------------------------------------------------------------------------------
 Section 0 - Line up
 --------------------------------------------------------------------------------
+
 Player 0 (P0): VarunKathy, The name the team gives to this strategy
         How does this strategy decide?
 Player 1 (P1): The name the team gives to itself, The name the team gives to this strategy
@@ -18,10 +19,12 @@ Player 6 (P6): amani-meghana-anjali, idk man
 Player 7 (P7): Hufflepuff, Winning Strategy
         With our combined awesomeness, we will base each decision off of the las
         t and win the game.
+
 --------------------------------------------------------------------------------
 Section 1 - Player vs. Player
 --------------------------------------------------------------------------------
 Each column shows pts/round earned against each other player:
+
              P0     P1     P2     P3     P4     P5     P6     P7
 vs. P0 :      0      0      0      0   -247   -247   -246      0
 vs. P1 :      0      0      0      0    100    100    100      0
@@ -32,11 +35,12 @@ vs. P5 :   -252   -500   -500   -500   -250      0   -250   -500
 vs. P6 :   -252   -500   -500   -500   -250   -250      0   -500
 vs. P7 :      0      0      0      0    100    100    100      0
 TOTAL  :   -756  -1500  -1500  -1500   -347   -347   -346  -1500
---------------------------------------------------------------------------------
+----------------------------------------------------------------
 Section 2 - Leaderboard
 --------------------------------------------------------------------------------
 Average points per round:
 Team name (P#):  Score      with strategy name
+
 The name t(P4):        -43 points with The name the team gives to this strategy
 AAC       (P5):        -43 points with BBB                                     
 amani-megh(P6):        -43 points with idk man                                 
@@ -431,6 +435,7 @@ cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
 BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
 cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
 
+
 --------------------------------------------------------------------------------
 100.0 pt/round: AAC(P5) "BBB"
 -500.0 pt/round: The name the team gives to itself(P2) "The name the team gives to this strategy"
@@ -456,6 +461,7 @@ BBBB
 cccc
 
 --------------------------------------------------------------------------------
+
 -250.0 pt/round: AAC(P5) "BBB"
 -250.0 pt/round: The name the team gives to itself(P4) "The name the team gives to this strategy"
 bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
@@ -494,8 +500,10 @@ Section 3 - Game Data for Team amani-meghana-anjali
 Bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 cbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 
+
 bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+
 
 --------------------------------------------------------------------------------
 100.0 pt/round: amani-meghana-anjali(P6) "idk man"
@@ -505,6 +513,7 @@ cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
 
 BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
 ccccccccccccccccccccccccccccccccccccccccccccccccc
+
 
 --------------------------------------------------------------------------------
 100.0 pt/round: amani-meghana-anjali(P6) "idk man"
@@ -537,6 +546,7 @@ bbbbbbbbbbbbbbbbbbbb
 bbbbbbbbbbbbbbbbbbbb
 
 --------------------------------------------------------------------------------
+
 -250.0 pt/round: amani-meghana-anjali(P6) "idk man"
 -250.0 pt/round: AAC(P5) "BBB"
 bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
@@ -575,6 +585,7 @@ CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
+
 --------------------------------------------------------------------------------
 0.0 pt/round: Hufflepuff(P7) "Winning Strategy"
 0.0 pt/round: The name the team gives to itself(P2) "The name the team gives to this strategy"
@@ -597,6 +608,7 @@ CCCCCCCCCCCCCCCCCCCCCCCCCCC
 CCCCCCCCCCCCCCCCCCCCCCCCCCC
 
 --------------------------------------------------------------------------------
+
 -500.0 pt/round: Hufflepuff(P7) "Winning Strategy"
 100.0 pt/round: The name the team gives to itself(P4) "The name the team gives to this strategy"
 cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
@@ -610,6 +622,7 @@ BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
 100.0 pt/round: AAC(P5) "BBB"
 cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
 BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+
 
 cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
 BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
