@@ -45,15 +45,14 @@ def test_move(my_history, their_history, my_score, their_score, result):
             " and should have returned '" + result + "'")
         return False
 
-if __name__ == '__main__':
-     
-    # Test 1: Betray on first move.
-    if move(my_history='', their_history='', my_score=0, their_score=0,result='b'):
-        return 'b'
-        if 'b' in their_history[-2:]:
-            return 'b'
-        else:
-            if 'b' in my_history()>.7:
+ 
+     if __name__ == '__main__':
+        if move(my_history='', their_history='', my_score=0, their_score=0,result='b'):
                 return 'b'
-            else: 
+        if 'b' in their_history[-5:]:
+                return 'b'
+        else:
+            if 'b' in my_history()>.5:
                 return 'c'
+            else: 
+                return 'b'
