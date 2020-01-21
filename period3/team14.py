@@ -6,8 +6,8 @@
 #     move: A function that returns 'c' or 'b'
 ####
 
-team_name = 'Rima and Sid'
-strategy_name = 'Uhhh Comp Sci Things'
+team_name = 'Tryhards'
+strategy_name = 'Diehard'
 strategy_description = 'Collude for the first two rounds. For all subsequent rounds: locate the most recent round that is equivalent to the previous round and replicate the opponent's move on the round after that. Or else, betray if the opponent had a different choice than us previous round and collude otherwise'
     
 def move(my_history, their_history, my_score, their_score):
