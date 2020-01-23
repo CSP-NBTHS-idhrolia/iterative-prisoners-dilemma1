@@ -52,7 +52,7 @@ def test_move(my_history, their_history, my_score, their_score, result):
                 return 'b'
         else:
             if 'b' in my_history()>.5:
-                return 'b'
+                return 'c'
             else: 
                 return 'b'   
                 
